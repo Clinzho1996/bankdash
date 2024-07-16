@@ -35,6 +35,7 @@ export default function Home() {
               typeImage="/master2.png"
               chipImage="/chip.png"
               footerClassName="bg-[#ffffff20]"
+              handleClick={() => {}}
             />
             <BankCard
               className="bg-white border-[1px] w-[100%] md:w-[50%]"
@@ -44,6 +45,8 @@ export default function Home() {
               details="3778 **** **** 1234"
               typeImage="/master.png"
               chipImage="/chip2.png"
+              footerClassName="bg-[#ffffff20]"
+              handleClick={() => {}}
             />
           </div>
         </div>
