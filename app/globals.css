@@ -78,7 +78,7 @@
   }
 
   .sidebar-logo {
-    @apply font-inter text-[22px] text-black font-extrabold;
+    @apply font-inter text-[22px] text-black font-extrabold max-xl:hidden;
   }
 
   .sidebar-link {
