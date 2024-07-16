@@ -46,7 +46,7 @@ export default function Home() {
               details="3778 **** **** 1234"
               typeImage="/master.png"
               chipImage="/chip2.png"
-              footerClassName="bg-[#ffffff20]"
+              footerClassName="bg-[#dfeaf2] rounded-b-3xl rounded-br-3xl"
               handleClick={() => {}}
             />
           </div>
