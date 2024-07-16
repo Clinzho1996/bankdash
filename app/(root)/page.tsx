@@ -1,5 +1,6 @@
 import BankCard from "@/components/BankCard";
 import HeaderBox from "@/components/HeaderBox";
+import TransactionList from "@/components/TransactionList";
 import Image from "next/image";
 
 export default function Home() {
@@ -54,6 +55,9 @@ export default function Home() {
           <h2 className="text-primary-2 text-lg md:text-xl font-semibold">
             Recent Transaction
           </h2>
+          <div className="mt-5">
+            <TransactionList />
+          </div>
         </div>
       </div>
     </section>

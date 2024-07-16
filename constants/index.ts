@@ -8,6 +8,9 @@ import {
   IconDrone,
   IconBulbFilled,
   IconSettingsFilled,
+  IconBrandPaypal,
+  IconCreditCardRefund,
+  IconMessageDollar,
 } from "@tabler/icons-react";
 
 export const sidebarLinks = [
@@ -55,5 +58,29 @@ export const sidebarLinks = [
     icon: IconSettingsFilled,
     route: "/settings",
     label: "Settings",
+  },
+];
+
+export const transactionLinks = [
+  {
+    id: "1",
+    icon: IconCreditCardRefund,
+    type: "Deposit from my card",
+    amount: "$10,000",
+    date: "10th July, 2024",
+  },
+  {
+    id: "2",
+    icon: IconBrandPaypal,
+    type: "Deposit Paypal",
+    amount: "+$2,500",
+    date: "15th July, 2024",
+  },
+  {
+    id: "3",
+    icon: IconMessageDollar,
+    type: "Withdrawal",
+    amount: "-$5,400",
+    date: "9th July, 2024",
   },
 ];
