@@ -40,10 +40,10 @@ export default function Home() {
             />
             <BankCard
               className="bg-white border-[1px] w-[100%] md:w-[50%]"
-              balance="5,756"
-              name="Confidence Emonena"
-              time="12/28"
-              details="3778 **** **** 1234"
+              balance="10,264"
+              name="Ochuko Emonena"
+              time="07/26"
+              details="6297 **** **** 0832"
               typeImage="/master.png"
               chipImage="/chip2.png"
               footerClassName="bg-[#dfeaf2] rounded-b-3xl rounded-br-3xl"
