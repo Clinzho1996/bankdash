@@ -7,7 +7,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 function TransferCard() {
   return (
     <div className="bg-white px-4 py-12 rounded-lg w-full">
-      <div className="flex flex-row flex-wrap justify-center items-center text-center gap-10 mb-8">
+      <div className="flex flex-row flex-wrap justify-center items-center text-center gap-5 md:gap-10 mb-8">
         <div className="flex flex-col justify-center items-center">
           <Avatar>
             <AvatarImage
@@ -67,7 +67,7 @@ function TransferCard() {
           <p className="text-gray-400 font-light text-[10px] md:text-sm">Bro</p>
         </div>
       </div>
-      <div className="flex flex-row justify-between px-5 w-full items-center gap-5">
+      <div className="flex flex-col md:flex-row justify-between px-5 w-full items-center gap-5">
         <div className="w-full md:w-[35%]">
           <p className="text-gray-400 font-light text-sm">Write Amount</p>
         </div>
