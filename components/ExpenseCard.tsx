@@ -18,8 +18,8 @@ function ExpenseCard() {
     datasets: [
       {
         label: "Expense Statistics",
-        data: [30, 15, 35, 20],
-        backgroundColor: ["#343C6A", "#FC7900", "#1814F3", "#FA00FF"],
+        data: [300, 350, 450, 200, 370],
+        backgroundColor: ["#343C6A", "#FC7900", "#1814F3", "#FA00FF", "#000"],
         circular: true,
       },
     ],

@@ -61,7 +61,7 @@ function BalanceCard() {
     datasets: [
       {
         label: "Balance History",
-        data: [65, 59, 80, 81, 56, 55, 40],
+        data: [65, 59, 70, 72, 56, 55, 40],
         borderColor: "#1814F3",
         tension: 0.3,
       },
@@ -75,7 +75,7 @@ function BalanceCard() {
         options={{
           elements: {
             line: {
-              borderJoinStyle: "round", // Setting borderJoinStyle here
+              borderJoinStyle: "round",
             },
           },
           plugins: {

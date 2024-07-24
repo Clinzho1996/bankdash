@@ -49,12 +49,22 @@ function WeeklyCard() {
       {
         label: "Deposit",
         data: [65, 59, 80, 81, 56, 55, 40],
+        barPercentage: 0.5,
+        barThickness: 10,
+        maxBarThickness: 10,
+        minBarLength: 2,
         backgroundColor: "#1814F3",
+        borderRadius: 20,
       },
       {
         label: "Withdraw",
         data: [35, 45, 60, 47, 75, 65, 50],
-        backgroundColor: "rgba(255, 99, 132, 0.6)",
+        barPercentage: 0.5,
+        barThickness: 10,
+        maxBarThickness: 10,
+        minBarLength: 2,
+        backgroundColor: "#16DBCC",
+        borderRadius: 20,
       },
     ],
   };
