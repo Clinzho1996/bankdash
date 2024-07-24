@@ -1,6 +1,10 @@
+import BalanceCard from "@/components/BalanceCard";
 import BankCard from "@/components/BankCard";
+import ExpenseCard from "@/components/ExpenseCard";
 import HeaderBox from "@/components/HeaderBox";
 import TransactionList from "@/components/TransactionList";
+import TransferCard from "@/components/TransferCard";
+import WeeklyCard from "@/components/WeeklyCard";
 import Image from "next/image";
 
 export default function Home() {
@@ -51,13 +55,53 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="flex flex-col w-[100%] sm:w-[32%] mt-5 md:mt-0">
+        <div className="flex flex-col w-[100%] sm:w-[33%] mt-5 md:mt-0">
           <h2 className="text-primary-2 text-lg md:text-xl font-semibold">
             Recent Transaction
           </h2>
           <div className="mt-5">
             <TransactionList />
           </div>
+        </div>
+      </div>
+      <div className="py-4 bg-gray-800 px-10 flex flex-col md:flex-row justify-between items-start w-full">
+        <div className="flex flex-col gap-5 w-[100%] md:w-[65%] justify-between items-start">
+          {/* Activities */}
+          <h2 className="text-primary-2 text-lg md:text-xl font-semibold">
+            Weekly Activites
+          </h2>
+
+          {/* Activity Graph */}
+          <WeeklyCard />
+        </div>
+        <div className="flex flex-col gap-5 w-[100%] sm:w-[33%] mt-5 md:mt-0">
+          {/* Statistics */}
+          <h2 className="text-primary-2 text-lg md:text-xl font-semibold">
+            Expense Statistics
+          </h2>
+
+          {/* Statistics Chart */}
+          <ExpenseCard />
+        </div>
+      </div>
+      <div className="py-4 bg-gray-800 px-10 flex flex-col md:flex-row  justify-between items-start w-full">
+        <div className="flex flex-col gap-5 w-[100%] md:w-[45%] justify-between items-start">
+          {/* Quick Transfer */}
+          <h2 className="text-primary-2 text-lg md:text-xl font-semibold">
+            Quick Transfer
+          </h2>
+
+          {/* Transfer Card */}
+          <TransferCard />
+        </div>
+        <div className="flex flex-col gap-5 w-[100%] sm:w-[53%] mt-5 md:mt-0">
+          {/* Statistics */}
+          <h2 className="text-primary-2 text-lg md:text-xl font-semibold">
+            Balance History
+          </h2>
+
+          {/* Statistics chart */}
+          <BalanceCard />
         </div>
       </div>
     </section>

@@ -18,7 +18,7 @@ const Sidebar = () => {
             width={70}
             height={70}
             alt="DCB logo"
-            className="size-[34px] max-xl:size-14"
+            className="size-[34px] max-xl:size-10"
           />
           <h1 className="sidebar-logo">BankDash.</h1>
         </Link>
