@@ -9,7 +9,7 @@ export default async function RootLayout({
   return (
     <main className="flex h-screen w-full font-inter">
       <Sidebar />
-      <div className="flex size-full flex-col overflow-auto">
+      <div className="custom-scrollbar flex size-full flex-col overflow-auto">
         <div className="root-layout">
           <Image src={"/logo.png"} width={30} height={30} alt="logo" />
           <div>
