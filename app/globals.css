@@ -97,8 +97,10 @@
   }
   .custom-scrollbar::-webkit-scrollbar-thumb {
     background: #2d60ff;
+    border-radius: 10px;
   }
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background: #2456ec;
+    border-radius: 10px;
   }
 }
