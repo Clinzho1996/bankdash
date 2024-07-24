@@ -8,7 +8,7 @@ function TransferCard() {
   return (
     <div className="bg-white px-4 py-12 rounded-lg w-full">
       <div className="flex flex-row flex-wrap justify-center items-center text-center gap-5 md:gap-10 mb-8">
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-3">
           <Avatar>
             <AvatarImage
               src="https://github.com/shadcn.png"
@@ -25,7 +25,7 @@ function TransferCard() {
             Babe
           </p>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-3">
           <Avatar>
             <AvatarImage
               src="https://github.com/shadcn.png"
@@ -38,7 +38,7 @@ function TransferCard() {
           <p className="text-gray-600 font-medium text-md md:text-lg">Joye</p>
           <p className="text-gray-400 font-light text-[10px] md:text-sm">Sis</p>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-3">
           <Avatar>
             <AvatarImage
               src="https://github.com/shadcn.png"
@@ -53,7 +53,7 @@ function TransferCard() {
           </p>
           <p className="text-gray-400 font-light text-[10px] md:text-sm">Sis</p>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-3">
           <Avatar>
             <AvatarImage
               src="https://github.com/shadcn.png"
